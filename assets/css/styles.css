@@ -1,0 +1,30 @@
+:root{
+   --bg-primary: #2f4f30;
+}
+html,body{
+    margin: 0px;
+    background-color: var(--bg-primary) !important;
+    color: white !important;
+}
+.titulo{
+    text-align: center;
+    background-color: black;
+    padding: 2rem 0;
+}
+.botones{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+#jugador-cartas,#computadora-cartas{
+    height: 240px;
+}
+.carta{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}

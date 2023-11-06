@@ -5,10 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlackJack</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
+    <header class="titulo">
+        <h1>BlackJack</h1>
+    </header>
+    <div id="divBotones" class="botones">
+        <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+        <button id="btnPedir" class="btn btn-primary">Pedir Juego</button>
+        <button id="btnDetener" class="btn btn-primary">Detener Juego</button>
+    </div>
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas">
+                <!-- <img class="carta" src="assets/cartas/2C.png" alt="carta"> -->
+                <!-- <img class="carta" src="assets/cartas/2C.png" alt="carta">
+                <img class="carta" src="assets/cartas/2C.png" alt="carta"> -->
+            </div>
+        </div>
+    </div>
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Computadora 1 - <small>0</small></h1>
+            <div id="computadora-cartas">
+                <!-- <img class="carta" src="assets/cartas/3C.png" alt="carta"> -->
+                <!-- <img class="carta" src="assets/cartas/3C.png" alt="carta">
+                <img class="carta" src="assets/cartas/3C.png" alt="carta"> -->
+            </div>
+        </div>
+    </div>
 
+
+    <script src="assets/js/underscore-min.js"></script>
     <script src="assets/js/juego.js"></script>
 </body>
 
